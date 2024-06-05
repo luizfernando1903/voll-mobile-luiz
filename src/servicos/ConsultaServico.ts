@@ -27,5 +27,6 @@ export async function cancelarConsulta(consultaId:string){
   catch(error){
     console.log(error)
     return null
+
   }
 }

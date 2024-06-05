@@ -27,6 +27,11 @@ export default function Explorar({ navigation }) {
       console.log(resultado)
     }
   }
+  function voltar() {
+       
+    navigation.replace('Login');
+  }
+
 
   return (
     <ScrollView flex={1} bgColor="white">
@@ -45,6 +50,7 @@ export default function Explorar({ navigation }) {
           <Botao mt={3} mb={3} onPress={buscar}>
             Buscar
           </Botao>
+          <Botao onPress={voltar}>Voltar</Botao>
         </Box>
 
         <Titulo color="blue.500" alignSelf="center">Resultado da Busca</Titulo>

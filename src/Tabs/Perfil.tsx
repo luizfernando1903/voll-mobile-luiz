@@ -40,6 +40,7 @@ export default function Perfil({ navigation }) {
         <Titulo fontSize="lg" mb={1}>{dadosPaciente.nome}</Titulo>
         <Text>Email: {dadosPaciente?.email}</Text>
         <Text>Estado: {dadosPaciente?.endereco?.estado}</Text>
+        <Text>Telefone: {dadosPaciente?.telefone}</Text>
 
         <Divider mt={5} />
 
